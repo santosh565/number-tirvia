@@ -15,7 +15,7 @@ import 'features/number_trivia/presentation/bloc/number_trivia_bloc.dart';
 
 final sl = GetIt.instance;
 
-void init() async {
+Future<void> init() async {
   // Features - Number Trivia
 
   // Bloc
